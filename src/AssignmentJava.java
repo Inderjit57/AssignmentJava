@@ -83,6 +83,36 @@ public class AssignmentJava {
 		System.out.println("multiplication of amount and cash1: "+ (amount * cash1));
 		System.out.println("Simple division of amount and cash1: "+ (amount / cash1));
 		
+		/*
+		 * Question 6: Can one variable be used to initialise another variable? 
+		 * If yes, under what conditions this is possible, please explain with an example.
+		 *Answer: Yes, a variable can be initialized by another variable. 
+		 *Once the variable is declared, it can be assigned a new value.
+		 *It will update the value when assigned a second time.
+		 */
+		
+		String condition, fact, style;
+		condition = fact = style = "Elephant walk slowly";
+		fact = "They are taller than aliens";
+		
+		
+		System.out.println(fact);
+		System.out.println(condition);
+		System.out.println(style);
+		
+		/*
+		 * Question 7: What do you understand by compile time and run time in java.
+		 *Answer: 
+		 *Compile time- Compile time is when a source code written is converted to a byte code for the computer to understand. Source code is converted to byte code; .java to .class
+		 *input  = source code, dependent file, libraries are required for compilation
+		 *Output = Compiled code or error messages occurred during compilation.
+		 *
+		 *Runtime = When a program is in runtime, it's under execution after an unsuccessful or successful code is written.
+		 */
+		
+		System.out.println("in progress");
+		
+		
 		
 		
 	}
