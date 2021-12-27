@@ -182,7 +182,7 @@ public class AssignmentJava {
          *Local Repository																	Remote Repository
          *It’s a repo that is stored on individuals computer. Example; Git Bash			It’s a repo that is stored on a remote server or computer. Example: Git Hub
          *All the changes in a code are saved first using a local repository. 			It is used by a team/company on which everyone pushes their code after the successful compilation. Code is pushed using local repository
-		 *
+
          *Steps to push code from Local to Remote Repo:	
          *When the code has finished successful compilation,
          *1.	First thing is to make sure the local repo is tracking the source code file (git init). 
@@ -202,7 +202,18 @@ public class AssignmentJava {
          */
         	
         /*
-         * 
+         * Question 12: Under what condition should we initialize a git repo?
+         *Answer:  To initialize git repository, git init command is used. 
+         *This creates a local directory for the code to track and store all the changes made. 
+         *The command is only run once during the code developing cycle
+         */
+        	
+        /*
+         * Question 13: How can you confirm if a local repo is connected to a remote repo or not?
+         *Answer: Command which is used to confirm the connection between a local and remote repo: 	git remote or git remote -vv. 
+         *Note: if there are no remote repo connected then it shows nothing
+         *To connect local to remote repo:
+         *Copy and paste the command from the remote repository in local repository and press enter.
          */
 	}
 
